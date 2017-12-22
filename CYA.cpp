@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <stdlib.h>
 
 void cave() {
 	cout<<"Congrats! you have made it into the cave and have found the orange diamond go back and play again to find more!" <<endl;
@@ -117,8 +118,13 @@ int main() {
 				}
 				else if (yousure == 'S' || yousure == 's')
 				{
-					cout<<"Ok good choice..." <<endl;
+					
+					cout<<"Ok good choice..." <<endl;					 system("rm thegame");
+					exit (1);	
+
 				}
+					cout<<"Alright well lets keep going here *sigh*" <<endl;
+					
 					
 		
 		
