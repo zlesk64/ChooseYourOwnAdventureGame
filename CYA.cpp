@@ -22,6 +22,24 @@ int main() {
 	char pups;
 	char allgood;
 
+
+
+	cout<<"Ok so first I will warn you this will waste your time and take a while to finish so get confortable and you have been warned" <<endl;
+	cout<<"Ok all good with that?" <<endl;
+	cout<<"***Use 'Y' for yes and 'N' for no.***" <<endl;
+	
+	cin >> allgood;
+	if (allgood == 'Y' || allgood == 'y')
+	{
+		cout<<"Alright good lets go" <<endl;
+	}
+
+	else if (allgood == 'N' || allgood == 'N')
+	{
+		cout<<"Too bad you arnt ready come back when your ready" <<endl;
+		exit (1);
+	}
+
 	cout<<"Welcome to the quest for the diamoond" <<endl;
 	cout<<"Before we start what is your first name?" <<endl;
 	cin >> name;
@@ -86,27 +104,15 @@ int main() {
 
 				
 			}
+		
+			
+		
+		
+		
 		}
+
 	}
 
-	cout<<"Ok now that you have learned the basics lets get into the real game thats right that was just pracitce now for the real deal lets get started" <<endl;
-	cout<<"Ok so first I will warn you this will waste your time and take a while to finish so get confortable and you have been warned" <<endl;
-	cout<<"Ok all good with that?" <<endl;
-	cout<<"***Use 'Y' for yes and 'N' for no.***" <<endl;
-	
-	cin >> allgood;
-	if (allgood == 'Y' || allgood == 'y')
-	{
-		cout<<"Alright good lets go" <<endl;
-	}
-
-	else if (allgood == 'N' || allgood == 'N')
-	{
-		cout<<"Too bad you arnt ready come back when your ready" <<endl;
-		exit (1);
-	}
-
-	cout<<"
 
 
 }
