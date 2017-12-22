@@ -21,6 +21,7 @@ int main() {
 	char water;
 	char pups;
 	char allgood;
+	char yousure;
 
 
 
@@ -105,8 +106,20 @@ int main() {
 				
 			}
 		
-			
-		
+				cout<<"Alright so you got this far you probably think this is pretty boring dont you? well if you do than now is a good place tp stop and no you progress wont be saved so yeah." <<endl;
+				cout<<"***Press 'G' to keep going and 'S' to stop.***" <<endl;
+
+				
+				cin >> yousure;
+				if (yousure == 'G' || yousure == 'g')
+				{
+					cout<<"Ok well lets go i guess" <<endl;
+				}
+				else if (yousure == 'S' || yousure == 's')
+				{
+					cout<<"Ok good choice..." <<endl;
+				}
+					
 		
 		
 		}
